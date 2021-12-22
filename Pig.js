@@ -10,7 +10,7 @@ class Pig extends BaseClass {
 
     }
     else{
-      //hacer nada
+      World.remove(world, this.body);
     }
   }
 };
